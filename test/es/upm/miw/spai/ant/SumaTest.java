@@ -16,7 +16,7 @@ public class SumaTest {
 
 	@Test
 	public void aVerSiIncrementaBien() {
-		assertEquals("Test incrementa", 2.0, suma.incrementa(1.0), 1e-6);
+		asssertEquals("Test incrementa", 2.0, suma.incrementa(1.0), 1e-6);
 	}
 
 	@Test
